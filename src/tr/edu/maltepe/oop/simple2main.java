@@ -11,6 +11,7 @@ public class simple2main {
 
         p1.teaches();
         s1.learns();
+        //thrrr
     }
 
 }

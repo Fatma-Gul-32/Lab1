@@ -6,8 +6,8 @@ public class simple2main {
         Prof p1;
         Student s1;
 
-        p1 = new Prof("Ensar Gul");
-        s1 = new Student("Fatma Gul");
+        p1 = new Prof("Ensar", "Gul");
+        s1 = new Student("Fatma Gul","Bagriacik",7);
 
         p1.teaches();
         s1.learns();

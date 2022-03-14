@@ -1,14 +1,18 @@
 package tr.edu.maltepe.oop;
-public class Prof {
-    String name;
-    String surname;
 
-    public Prof(String name, String surname){
-        this.name= name;
-        this.surname=  surname;
+public class Prof extends Person {
+
+    public Prof(String name, String surname) {
+        this.setName(name);
+        this.setSurname(surname);
     }
 
-    void teaches(){
-        System.out.println("Prof " +name+ " " +surname+" teaches now");
+    public Prof(){
+        System.out.println("Prof çalıştı");
     }
+
+    void teaches() {
+        System.out.println("Prof " + getName() + " " + getSurname() + " teaches now");
+    }
+
 }

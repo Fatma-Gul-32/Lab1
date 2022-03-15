@@ -3,6 +3,7 @@ package tr.edu.maltepe.oop;
 public class Person {
     private String name;
     private String surname;
+    private String major;
 
     public String getName() {
         return name;
@@ -13,10 +14,20 @@ public class Person {
     }
 
     public String getSurname() {
+
         return surname;
     }
 
     public void setSurname(String surname) {
+
         this.surname = surname;
+    }
+
+    public String getMajor() {
+        return major;
+    }
+
+    public void setMajor(String major) {
+        this.major = major;
     }
 }

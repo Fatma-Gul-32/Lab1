@@ -5,6 +5,7 @@ public class Student extends Person {
     private int id;
     //we can use 2 constructors, one of them is with referances and the other one is empty
     public Student(String name, String surname, int id, String major){
+        this();
         this.setName(name);
         this.setSurname(surname);
         this.setId(id);

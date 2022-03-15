@@ -5,6 +5,15 @@ public class Person {
     private String surname;
     private String major;
 
+    public Person(String name, String surname, String major){
+        this.name= name;
+        this.surname= surname;
+        this.major= major;
+    }
+
+    public Person() {
+    }
+
     public String getName() {
         return name;
     }
